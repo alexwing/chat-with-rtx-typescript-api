@@ -29,6 +29,10 @@ You can find more information about ChatRTX in the following link: [ChatRTX](htt
             console.error("Error:", error);
         });
 ```
+
+This code is a TypeScript version of the original Python code at the following link: [Chat-With-RTX-python-api](https://github.com/rpehkone/Chat-With-RTX-python-api)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -60,5 +64,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
