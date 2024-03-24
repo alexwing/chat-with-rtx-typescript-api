@@ -87,7 +87,7 @@ function App() {
       </Breadcrumb>
       <h2>Chat with RTX</h2>
       <Row className="p-3 m-0">
-        <Col xs={12} className="p-0">
+        <Col xs={9} className="p-0">
           <Form.Group controlId="search">
             <Form.Label>Message</Form.Label>
             <Form.Control
@@ -100,7 +100,7 @@ function App() {
           </Form.Group>
         </Col>
         {/* set visibility if not pre-configured port in the server */}
-        <Col xs={3} style={{ display: "none" }}>
+        <Col xs={3}>
           <Form.Group controlId="port" className="mb-3">
             <Form.Label>Port</Form.Label>
             <Form.Control

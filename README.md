@@ -2,6 +2,8 @@
 
 This project is a test of a chat with "Chat to RTX" API, the project is made with React and TypeScript, the project is a chat that sends a message to the server and receives a response, the project is made with the create-react-app template.
 
+![Chat-With-RTX-typeScript-api](/res/capture.png)
+
 ## What is ChatRTX?
 
 ChatRTX is a demonstration application that allows you to customize a large language model (LLM) GPT connected to your own content: documents, notes, videos, or other data. By leveraging retrieval-augmented generation (RAG), TensorRT-LLM, and RTX acceleration, you can query a customized chatbot for contextually relevant answers quickly. Since everything runs locally on your RTX Windows PC or workstation, you'll get fast, secure results.
@@ -21,7 +23,7 @@ You can find more information about ChatRTX in the following link: [ChatRTX](htt
     queueManager
         .sendMessage(message)
         .then((response) => {
-            console.log("Respuesta del servidor:", response);
+            console.log("Server response: ", response);
         })
         .catch((error) => {
             console.error("Error:", error);
