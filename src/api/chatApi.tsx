@@ -1,5 +1,22 @@
 import axios from 'axios';
 
+/* Api for Chat With RTX */
+/** 
+ Description: This class is used to send a message to the RTX chat server and get the response.
+
+ Usage:
+    const port = 5000;
+    const queueManager = new chatApi(port);
+    queueManager
+        .sendMessage(message)
+        .then((response) => {
+            console.log("Respuesta del servidor:", response);
+        })
+        .catch((error) => {
+            console.error("Error:", error);
+        });
+*/
+
 interface PythonObject {
     data: any[];
     event_data: any;
